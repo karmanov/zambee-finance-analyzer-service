@@ -36,6 +36,6 @@ public class TransactionServiceTest {
         MockMultipartFile mockMultipartFile = new MockMultipartFile("Transactions", is);
         transactionService.processFile(mockMultipartFile);
         List<Transaction> all = transactionRepository.findAll();
-        assertEquals(50, all.size());
+        assertEquals(2, all.size());
     }
 }
