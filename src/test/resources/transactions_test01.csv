@@ -1,0 +1,3 @@
+Booking date;Value date;Transaction Type;Beneficiary / Originator;Payment Details;IBAN;BIC;Customer Reference;Mandate Reference;Creditor ID;Compensation amount;Original Amount;Ultimate creditor;Number of transactions;Number of cheques;Debit;Credit;Currency
+04/03/2017;04/03/2017;"Debit Card Payment";;DIRK ROSSMANN GMBH//BERLIN/DE 01-04-2017T17:19:59 Folgenr. 08 Verfalld. 1220;;;;;;;;;;;-11.97;;EUR
+04/03/2017;04/03/2017;"Debit Card Payment";;REWE SAGT DANKE. 42655245//Berlin Charlotte/DE 01-04-2017T15:05:42 Folgenr. 08 Verfalld. 1220;;;;;;;;;;;-15.75;;EUR
