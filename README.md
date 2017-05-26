@@ -1,2 +1,2 @@
-# zambee-finance-analyzer-service [![Build Status](https://travis-ci.org/karmanov/zambee-finance-analyzer-service.svg?branch=master)](https://travis-ci.org/karmanov/zambee-finance-analyzer-service)
+# zambee-finance-analyzer-service [![Build Status](https://travis-ci.org/karmanov/zambee-finance-analyzer-service.svg?branch=master)](https://travis-ci.org/karmanov/zambee-finance-analyzer-service) [![codecov](https://codecov.io/gh/karmanov/zambee-finance-analyzer-service/branch/master/graph/badge.svg)](https://codecov.io/gh/karmanov/zambee-finance-analyzer-service)
 zambee-finance-analyzer-service
