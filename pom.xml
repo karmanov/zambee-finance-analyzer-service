@@ -18,6 +18,20 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <scm>
+        <connection>scm:git:https://github.com/karmanov/zambee-finance-analyzer-service.git</connection>
+        <developerConnection>scm:git:git@github.com:karmanov/zambee-finance-analyzer-service.git</developerConnection>
+        <url>https://github.com/karmanov/zambee-finance-analyzer-service</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <!--<distributionManagement>-->
+        <!--<repository>-->
+            <!--<id>bintray</id>-->
+            <!--<url>https://api.bintray.com/maven/{bintray-user}/{bintray-repo}/{package}</url>-->
+        <!--</repository>-->
+    <!--</distributionManagement>-->
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -146,7 +160,7 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.11</version>
+                <version>0.4.14</version>
                 <configuration>
                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
@@ -158,6 +172,11 @@
                         </resource>
                     </resources>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
             </plugin>
         </plugins>
     </build>
