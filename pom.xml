@@ -4,7 +4,7 @@
 
     <groupId>io.zambee</groupId>
     <artifactId>finance-analyzer-service</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>finance-analyzer-service</name>
@@ -21,7 +21,7 @@
         <connection>scm:git:https://github.com/karmanov/zambee-finance-analyzer-service.git</connection>
         <developerConnection>scm:git:git@github.com:karmanov/zambee-finance-analyzer-service.git</developerConnection>
         <url>https://github.com/karmanov/zambee-finance-analyzer-service</url>
-        <tag>finance-analyzer-service-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!--<distributionManagement>-->
