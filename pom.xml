@@ -4,7 +4,7 @@
 
     <groupId>io.zambee</groupId>
     <artifactId>finance-analyzer-service</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>finance-analyzer-service</name>
