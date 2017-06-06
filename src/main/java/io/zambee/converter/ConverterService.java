@@ -9,7 +9,7 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
- * Generic class, contains all Entity -> DTO and DTO -> Entity converters implementations
+ * Generic class, contains all  from Entity to DTO and vise versa converters implementations
  */
 @Service
 public class ConverterService extends GenericConversionService {
