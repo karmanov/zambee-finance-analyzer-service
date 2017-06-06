@@ -28,7 +28,7 @@
         <repository>
             <id>bintray-karmanov-zambee-jars</id>
             <name>karmanov-zambee-jars</name>
-            <url>https://api.bintray.com/maven/karmanov/zambee-jars/[PACKAGE_NAME]/;publish=1</url>
+            <url>https://api.bintray.com/maven/karmanov/zambee-jars/zambee-finance-analyzer-service/;publish=1</url>
         </repository>
     </distributionManagement>
 
