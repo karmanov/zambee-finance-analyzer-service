@@ -24,12 +24,13 @@
         <tag>HEAD</tag>
     </scm>
 
-    <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>bintray</id>-->
-            <!--<url>https://api.bintray.com/maven/{bintray-user}/{bintray-repo}/{package}</url>-->
-        <!--</repository>-->
-    <!--</distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>bintray-karmanov-zambee-jars</id>
+            <name>karmanov-zambee-jars</name>
+            <url>https://api.bintray.com/maven/karmanov/zambee-jars/[PACKAGE_NAME]/;publish=1</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
